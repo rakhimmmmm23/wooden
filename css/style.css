@@ -1,0 +1,143 @@
+.container {
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Otomanopee One", sans-serif;
+  font-size: 18px;
+}
+
+header {
+  background: #009fff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #666465,
+    #009fff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #ec2f4b, #009fff);
+}
+
+.col-md-5 {
+  font-family: "Otomanopee One", sans-serif;
+  font-family: "Zen Tokyo Zoo", cursive;
+}
+
+main {
+}
+
+body {
+  background: #c6ffdd; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f7797d,
+    #fbd786,
+    #c6ffdd
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f7797d,
+    #fbd786,
+    #c6ffdd
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.py-2 {
+  color: #f3f9a7;
+  transition: linear 0.2s;
+}
+
+.py-2:hover {
+  color: #009fff;
+  text-decoration: overline;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  transition: linear 0.2s;
+  border: 1px;
+}
+
+.logo:hover {
+  border-radius: 20%;
+}
+
+.display-4 {
+  color: #f3f9a7;
+  font-family: "Zen Tokyo Zoo", cursive;
+}
+
+.lead {
+  color: #f3f9a7;
+  font-family: "Zen Tokyo Zoo", cursive;
+}
+
+.btn {
+  color: #fff;
+  border: 2px solid #f3f9a7;
+}
+
+.carousel-inner {
+}
+
+.section1 {
+  margin-top: 70px;
+}
+
+.BEDROOM {
+  color: #f3f9a7;
+}
+
+.section2 {
+  margin-top: 70px;
+}
+
+.carousel-item {
+  max-height: 600px;
+}
+
+.card {
+  margin-bottom: 50px;
+  margin: 20px;
+}
+
+.card-img-top {
+  width: 50px;
+  height: 50px;
+  padding-left: 30px;
+}
+
+p {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.position-relative {
+  animation-duration: 0.3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
